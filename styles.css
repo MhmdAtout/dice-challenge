@@ -18,6 +18,11 @@ img {
     text-align: center;
 }
 
+.dice{
+    display: inline-block;
+
+}
+
 h1 {
   margin: 30px;
   font-family: "Lobster", cursive;
