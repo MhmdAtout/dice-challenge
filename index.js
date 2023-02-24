@@ -5,3 +5,7 @@ var random_number2 = Math.floor(Math.random() * 6) + 1;
 
 var random_image1 = "assets/images/dice" + random_number1 + ".png"
 var random_image2 = "assets/images/dice" + random_number2 + ".png"
+
+document.querySelectorAll("img")[0].setAttribute("src", randomImage1);
+document.querySelectorAll("img")[1].setAttribute("src", randomImage2);
+
